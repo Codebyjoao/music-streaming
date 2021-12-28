@@ -1,0 +1,18 @@
+.searchContainer{
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  margin: 2rem;
+
+  form{
+    align-items: center;
+    input{
+      height: 3rem;
+      border-radius: 0.2rem;
+      border: 1px solid gray;
+      background: var(--white);
+    }
+  }
+}
